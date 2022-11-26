@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+/* Seção do banner*/
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 60px;
+    border-bottom: 1px solid #33A8DB80;
+}
+
+.banner .banner-content {
+    color: white;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.banner p {
+    font-size: 1.25rem;
+    margin: 16px 0 24px;
+}
+
+p {
+    color: white;
+}
+
+.banner .banner-content button {
+    color: #31A8DD;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background-color: transparent;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    border-radius: 30px;
+}
