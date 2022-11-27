@@ -28,6 +28,23 @@ body {
     text-align: center;
 }
 
+.banner .logo{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 260px;
+    width: 260px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.banner .logo img{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
 .banner h1 {
     font-size: 2.5rem;
     font-weight: 900;
@@ -58,4 +75,43 @@ p {
     border-image: linear-gradient(#3BA1CD, #1572B7);
     border-image-slice: 10;
     border-radius: 30px;
+}
+
+/*conteudo do curso*/
+
+section {
+    margin: 100px auto;
+}
+
+#course-content {
+    width: 800px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #33A8DB;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+#course-content .modules-list {
+    margin: 24px 0;
+}
+
+#course-content .modules-list .module {
+    color: white;
+    width: 530px;
+    margin: 0 auto 24px;
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    padding: 16px;
+    border-radius: 100px;
+    box-shadow: inset -5px 6px 8px rgb(0 0 0 / 70%);
+}
+
+#course-content .modules-list .module span {
+    color: #33A8DB;
 }
