@@ -7,8 +7,18 @@
     font-family: 'Raleway', sans-serif;
 }
 
+:root {
+    --clr-white: #fff;
+    --clr-black: #000;
+    --clr-black-light: #252525;
+    --clr-blue-light: #33A8DB;
+    --clr-blue-medium: #31A8DD;
+    --clr-blue-dark: #33A8DB80;
+    --spacing: 4px;
+}
+
 body {
-    background-color: black;
+    background-color: var(--clr-black);
 }
 
 /* Seção do banner*/
@@ -18,11 +28,11 @@ body {
     background-repeat: no-repeat;
     height: 600px;
     padding-top: 60px;
-    border-bottom: 1px solid #33A8DB80;
+    border-bottom: 1px solid var(--clr-blue-dark);
 }
 
 .banner .banner-content {
-    color: white;
+    color: var(--clr-white);
     width: 600px;
     margin: auto;
     text-align: center;
@@ -61,16 +71,16 @@ body {
 }
 
 p {
-    color: white;
+    color: var(--clr-white);
 }
 
 .banner .banner-content button {
-    color: #31A8DD;
+    color: var(--clr-blue-medium);
     font-size: 1rem;
     font-weight: bold;
     padding: 16px 32px;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: var(--spacing);
     background-color: transparent;
     border-image: linear-gradient(#3BA1CD, #1572B7);
     border-image-slice: 10;
@@ -90,9 +100,9 @@ section {
 
 h2 {
     font-size: 2rem;
-    color: #33A8DB;
+    color: var(--clr-blue-light);
     font-weight: bold;
-    letter-spacing: 4px;
+    letter-spacing: var(--spacing);
     text-transform: uppercase;
     margin-bottom: 24px;
 }
@@ -102,18 +112,18 @@ h2 {
 }
 
 #course-content .modules-list .module {
-    color: white;
+    color: var(--clr-white);
     width: 530px;
     margin: 0 auto 24px;
-    border: 1px solid #33A8DB;
-    background-color: #252525;
+    border: 1px solid var(--clr-blue-light);
+    background-color: var(--clr-black-light);
     padding: 16px;
     border-radius: 100px;
     box-shadow: inset -5px 6px 8px rgb(0 0 0 / 70%);
 }
 
 #course-content .modules-list .module span {
-    color: #33A8DB;
+    color: var(--clr-blue-light);
 }
 
 /*transforme o mundo*/
@@ -122,8 +132,8 @@ h2 {
     background-size: cover;
     background-image: url(../images/woman-code.png);
     background-attachment: fixed;
-    border-top: 1px solid #33A8DB80;
-    border-bottom: 1px solid #33A8DB80;
+    border-top: 1px solid var(--clr-blue-dark);
+    border-bottom: 1px solid var(--clr-blue-dark);
     padding: 200px;
 }
 
@@ -132,5 +142,32 @@ h2 {
     font-size: 2.5rem;
     text-transform: lowercase;
     max-width: 250px;
-    text-shadow: 3px 2px #33A8DB80;
+    text-shadow: 3px 2px var(--clr-blue-light);
+}
+
+/*desafios profissionais*/
+#professional-challenges {
+    text-align: center;
+    width: 800px;
+}
+
+#professional-challenges img {
+    margin: 32px 0;
+}
+
+footer {
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, 0.2));
+    border-top: 1px solid var(--clr-blue-dark);
+}
+
+footer .dio-logo {
+    width: 300px;
+}
+
+footer a {
+    color: var(--clr-blue-light);
+    font-weight: bold;
+    text-decoration: none;
 }
