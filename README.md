@@ -1,22 +1,33 @@
-# Desafio 01: Criando sua primeira Landing Page com HTML e CSS
+<h1 align="center">Desafio Landing Page com HTML e CSS </h1>
+<p>Primeiro desafio da Trilha de CSS da DIO!</p>
+<h2 align="center">Aprendizados nesse projeto 🎯</h2>
+<p>Construir a primeira Landing Page com HTML e CSS.<br>
+Colocar em prática os fundamentos do CSS, as propriedades básicas da linguagem de estilização, além de trabalhar com as unidades de medidas relativas e absolutas. </p>
 
-Bem vindo(a) ao primeiro desafio da Trilha de CSS da DIO! Nela, você vai construir sua primeira Landing Page com HTML e CSS, colocando em prática os fundamentos do CSS,
-as propriedades básicas da linguagem de estilização, além de trabalhar com as unidades de medidas relativas e absolutas que aprendemos ao longo da trilha.
+<h2 align="center">Tecnologias utilizadas 🛠</h2><br>
 
-[Clique aqui](https://micheleambrosio.github.io/dio-trilha-css-desafio-01/) para acessar o resultado final da Landing Page criada a partir do desafio!
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" data-canonical-src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&amp;logo=html5&amp;logoColor=white" style="max-width: 100%;">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" data-canonical-src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&amp;logo=css3&amp;logoColor=white" style="max-width: 100%;">
+<hr>
+<h2 align="center">Deploy 👨🏽‍💻</h2>
+<a href="https://lilian-rangel.github.io/Projeto-css-desafio/" target="_blank"> Clique aqui para acessar o resultado final da Landing Page!
+<hr>
+<h2 align="center">Print da página</h2>
+<img src="https://user-images.githubusercontent.com/55519539/183538055-6cce606c-7d1d-4d15-a4be-ffeb5b37c956.png">
 
-![image](https://user-images.githubusercontent.com/55519539/183538055-6cce606c-7d1d-4d15-a4be-ffeb5b37c956.png)
 
-Para você realizar o desafio, basta fazer um **fork** para o seu GitHub e começar a mexer no projeto.
-Dentro da pasta *main*, você vai encontrar todas as imagens e o arquivo HTML, contendo a estrutura básica da sua página, faltando apenas
-realizar a estilização da sua página. É necessário que você faça toda a parte responsável por interligar sua página HTML com suas folhas
-de estilo para que o resultado da estilização funcione.
+<hr>
+<h2 align="center"> Contributor 💻</h2>
+<table align="center">
+<tbody>
+<tr>
+<td align="center">
+<img src="https://avatars.githubusercontent.com/u/105670314?v=4" width="100px;" alt="Lilian Rangel" style="max-width: 100%;"><br><b>Lílian Rangel</b>
+<br>
+<a href="https://www.linkedin.com/in/lilian-rangel-de-paiva/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+<a href="https://github.com/lilian-rangel"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
 
-[Link do Figma](https://www.figma.com/file/3PiokoJj9IhGDnNiWAJbz7/DIO---Desafio-01?node-id=2%3A6) contendo o protótipo do desafio para
-que você possa se basear.
-
-*Observações: para aplicar os textos em gradiente, utilize a propriedade CSS background-clip, porém, para funcionar em alguns navegadores,
-é necessário utilizar a propriedade -webkit-background-clip: text;*
-
-Caso tenha alguma dúvida, ou queira comparar o resultado do desafio que você fez, nós temos o site finalizado na branch *final*. Basta alterar a branch do projeto
-utilizando o comando `git checkout final` no seu terminal.
+</td>
+</tr>
+</tbody>
+</table>
